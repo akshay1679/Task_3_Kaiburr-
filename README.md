@@ -1,9 +1,3 @@
-Perfect 👍 — here’s your **cleaned-up `README.md`** version with all screenshot sections removed but still following the submission format and professional tone.
-You can paste this directly into your repo; later, just add your screenshot links where you see the comments.
-
----
-
-```markdown
 # 🚀 Task 3 - Kaiburr Internship Assignment  
 **Candidate:** Akshay  
 **Date:** October 20, 2025  
