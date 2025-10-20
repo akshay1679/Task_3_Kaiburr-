@@ -140,7 +140,15 @@ A short video walkthrough of the project can be recorded showing:
 * Brief explanation of how each task works
 
 ---
+![Screenshot 1](./Screenshot%202025-10-20%20233314.png)
+![Screenshot 2](./Screenshot%202025-10-20%20233326.png)
+![Screenshot 3](./Screenshot%202025-10-20%20233344.png)
+![Screenshot 4](./Screenshot%202025-10-20%20233401.png)
+![Screenshot 5](./Screenshot%202025-10-20%20233549.png)
+![Screenshot 6](./Screenshot%202025-10-20%20234100.png)
+![Screenshot 1](./screenshots/Screenshot%202025-10-20%20233314.png)
 
+---
 
 This submission was created by **Akshay** for evaluation purposes only.
 
