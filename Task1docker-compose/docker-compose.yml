@@ -1,0 +1,38 @@
+# testing multiple services with links and envs
+version: "3.8"
+
+services:
+  backend_api:
+    build: .
+    image: mybackend:v1
+    container_name: backend_container
+    ports:
+      - "5000:5000"
+    environment:
+      - DB_HOST=db_service
+      - DB_USER=root
+      - DB_PASS=test123
+    depends_on:
+      - db_service
+    networks:
+      - task2_network
+
+  db_service:
+    image: postgres:latest
+    container_name: postgres_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: test123
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - task2_network
+
+networks:
+  task2_network:
+    driver: bridge
+
+volumes:
+  pgdata:
